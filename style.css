@@ -1,0 +1,16 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/gtrBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.nissanLogo img {
+    width: 100px;
+}

@@ -108,3 +108,32 @@ header {
     font-size: 2rem;
     width: 550px;
 }
+.specsPic h4 {
+    color: rgb(87, 86, 86);
+    font-size: 1.2rem;
+    width: 550px;
+}
+
+
+
+.carChanger {
+    text-align: center;
+    margin-top: 5rem;
+    background-color: rgb(233, 233, 233);
+    margin: 20px;
+    padding-bottom: 2rem;
+}
+.carTitle {
+    padding-top: 2rem;
+}
+.carTitle h2 {
+    font-size: 3rem;
+}
+.carTitle h4 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: rgb(87, 86, 86);
+}
+.carChoices img {
+    width: 600px;
+}

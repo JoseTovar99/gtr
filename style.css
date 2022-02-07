@@ -59,9 +59,20 @@ header {
     align-items: center;
     gap: 3rem;
 }
+.accountSearch .fas {   
+    transition: all 0.5s ease;
+    font-size: 1.5rem;
+}
+.accountSearch .fas:hover {
+    cursor: pointer;
+    color: gray;
+}
 .accountFlex {
     display: flex;
     gap: .5rem;
+}
+.accountFlex:hover {
+    cursor: pointer;
 }
 .accountFlex h4 {
     font-weight: 400;
@@ -70,7 +81,7 @@ header {
 .allNew {
     color: white;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 4rem;
     font-size: 2rem;
 }
 .allNew .lighter {
@@ -78,4 +89,22 @@ header {
 }
 .allNew .bolder {
     font-weight: bolder;
+}
+.allNew h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.specsSection {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.specsPic img {
+    width: 550px;
+}
+.specsPic h2 {
+    font-size: 2rem;
+    width: 550px;
 }

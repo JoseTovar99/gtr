@@ -97,9 +97,10 @@ header {
 
 .specsSection {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
     display: flex;
     justify-content: space-around;
+    
 }
 .specsPic img {
     width: 550px;
@@ -107,13 +108,27 @@ header {
 .specsPic h2 {
     font-size: 2rem;
     width: 550px;
+    padding-top: 1rem;
 }
 .specsPic h4 {
     color: rgb(87, 86, 86);
     font-size: 1.2rem;
     width: 550px;
 }
-
+.btnLearn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    transition: all 0.5s ease;
+}
+.btnLearn:hover {
+    cursor: pointer;
+    color: rgb(192, 192, 192);
+}
 
 .gtrVid video {
     width: 100%;
@@ -121,6 +136,13 @@ header {
     height: 800px;
 }
 
+.infoBtn {
+    text-align: center;
+}
+.infoBtn button {
+    margin: 20px;
+    font-size: 1.5rem;
+}
 
 .carChanger {
     text-align: center;

@@ -165,3 +165,18 @@ header {
 .carChoices img {
     width: 600px;
 }
+.gtrHistory {
+    padding-bottom: 2rem;
+}
+
+.imgText img {
+    width: 700px;
+}
+.imgText h2 {
+    width: 600px;
+}
+.imgText {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}

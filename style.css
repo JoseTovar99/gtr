@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 header {
@@ -101,7 +100,7 @@ header {
     padding-bottom: 6rem;
     display: flex;
     justify-content: space-around;
-    
+    background: black;
 }
 .specsPic img {
     width: 550px;
@@ -118,14 +117,13 @@ header {
     width: 550px;
 }
 .btnLearn {
-    color: white;
-    border: none;
+    color: black;
     padding: 10px;
     font-size: 1.3rem;
     font-weight: bolder;
     margin-top: 1rem;
     transition: all 0.5s ease;
-    border: 1px solid white;
+    border: 2px solid rgb(231, 52, 52);
 }
 .btnLearn:hover {
     cursor: pointer;
@@ -144,41 +142,4 @@ header {
 .infoBtn button {
     margin: 20px;
     font-size: 1.5rem;
-}
-
-.carChanger {
-    text-align: center;
-    margin-top: 5rem;
-    background-color: rgb(233, 233, 233);
-    margin: 20px;
-    padding-bottom: 2rem;
-}
-.carTitle {
-    padding-top: 2rem;
-}
-.carTitle h2 {
-    font-size: 3rem;
-}
-.carTitle h4 {
-    margin-top: 1rem;
-    font-size: 1.3rem;
-    color: rgb(87, 86, 86);
-}
-.carChoices img {
-    width: 600px;
-}
-.gtrHistory {
-    padding-bottom: 2rem;
-}
-
-.imgText img {
-    width: 700px;
-}
-.imgText h2 {
-    width: 600px;
-}
-.imgText {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
 }

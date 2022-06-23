@@ -130,6 +130,30 @@ header {
     color: rgb(192, 192, 192);
 }
 
+.lineSplit {
+    background-color: black;
+}
+.linePic {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.linePic hr {
+    flex-grow: 1;
+    background-color: #eb0000;
+    height: 15px;
+    transform: skew(-35deg);
+    border: none;
+    margin: 4px 32px 0 0;
+}
+
+
+.linePic img {
+    width: 100px;
+}
+
 .gtrVid video {
     width: 100%;
     object-fit: cover;

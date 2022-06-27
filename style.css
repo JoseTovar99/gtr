@@ -240,7 +240,11 @@ input:focus, textarea:focus, select:focus{
 }
 
 .historyFlex {
-    text-align: center;
+    text-align: start;
+    margin-left: 4rem;
+}
+.historyFlex h3 {
+    width: 30%;
 }
 
 .historyFlex h3 {
